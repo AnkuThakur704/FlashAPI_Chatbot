@@ -5,7 +5,7 @@ function App() {
   // const [aiRes, setaiRes] = useState([])
   const fetchres = async(quer)=>{
     console.log("start")
-    const res = await fetch(`http://localhost:8080/api/routes/gemini?msg=${quer}`)
+    const res = await fetch(`https://flashapi-chatbot-1.onrender.com/api/routes/gemini?msg=${quer}`)
     const data  = await res.text()
     setconvo(prev=>[...prev,{role:"ai",text:data.toString()}])
     console.log(convo)
