@@ -28,7 +28,7 @@ function App() {
       <div className=' w-screen h-screen flex flex-col items-center'>
         <div className='text-white font-light text-2xl mt-[1vh]'>
           <div className='flex items-center font-[500] text-pink-400'>Flash
-            <img className='h-[3vh]' src="./public/logo.svg" alt="" />
+            <img className='h-[3vh]' src="./logo.svg" alt="" />
             API
           </div>
         </div>
